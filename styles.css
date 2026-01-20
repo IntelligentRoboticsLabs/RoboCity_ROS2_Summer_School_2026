@@ -27,6 +27,31 @@ body {
 a { color: var(--primary); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.1rem;
+  border-radius: 999px;
+  background: var(--secondary);
+  color: #ffffff;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: var(--shadow);
+}
+
+.button:hover {
+  text-decoration: none;
+  filter: brightness(0.95);
+}
+
+.button:focus-visible {
+  outline: 3px solid rgba(176, 0, 32, 0.35);
+  outline-offset: 3px;
+}
+
 header {
   background: #ffffff;
   border-bottom: 1px solid var(--border);
@@ -139,6 +164,46 @@ section p {
 .card p {
   margin: 0;
   color: #4b5563;
+}
+
+.schedule {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--card);
+}
+
+.schedule th,
+.schedule td {
+  padding: 0.85rem 1rem;
+  vertical-align: top;
+  border-bottom: 1px solid var(--border);
+}
+
+.schedule tr:last-child td {
+  border-bottom: none;
+}
+
+.schedule th {
+  text-align: left;
+  font-size: 0.95rem;
+  color: var(--primary);
+  background: rgba(11, 45, 74, 0.04);
+}
+
+.schedule td.time {
+  width: 9.5rem;
+  white-space: nowrap;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.schedule .meta {
+  color: var(--muted);
+  font-size: 0.92rem;
 }
 
 footer {
