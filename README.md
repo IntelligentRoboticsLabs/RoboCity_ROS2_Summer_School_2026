@@ -1,1 +1,1 @@
-# RoboCity_ROS2_Summer_School_2025
+# RoboCity_ROS2_Summer_School_2026
