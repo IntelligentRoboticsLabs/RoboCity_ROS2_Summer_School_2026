@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Replace with your deployed site base URL, e.g. https://username.github.io/repo/
+Sitemap: https://www.robocity2030.org/RoboCity_ROS2_Summer_School_2025/sitemap.xml
