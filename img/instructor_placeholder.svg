@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Instructor photo placeholder</title>
+  <desc id="desc">Placeholder image used when an instructor photo is not yet available.</desc>
+
+  <rect x="0" y="0" width="1200" height="675" fill="#f6f8fb"/>
+  <rect x="24" y="24" width="1152" height="627" rx="28" fill="#ffffff" stroke="#e5e7eb" stroke-width="4"/>
+
+  <circle cx="600" cy="285" r="110" fill="#0b2d4a" opacity="0.10"/>
+  <circle cx="600" cy="285" r="72" fill="#0b2d4a" opacity="0.18"/>
+  <path d="M600 235c26 0 47 21 47 47s-21 47-47 47-47-21-47-47 21-47 47-47zm0 118c56 0 102 31 102 70v16H498v-16c0-39 46-70 102-70z" fill="#0b2d4a" opacity="0.35"/>
+
+  <text x="600" y="520" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="34" fill="#6b7280">
+    Photo pending
+  </text>
+</svg>
